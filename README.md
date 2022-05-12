@@ -1,0 +1,44 @@
+# Sistema de envio de mensagens via WhatsappWeb com JAVA.
+
+### FEATURES V1.0:
+
+ - SISTEMA DE SESSION PARA NÃO PRECISAR FICAR LENDO O QR CODE A CADA EXECUÇÃO;
+ - ENVIO DE MENSAGEM PARA USUÁRIO ESPÉCIFICO NO WHATSAPPWEB;
+ - POSSIBILIDADE DE ENVIO EM LOTE DE MENSAGENS, PODENDO ESCOLHER QUANTAS MENSAGENS DESEJA ENVIAR.
+
+### FUTURE FEATURES V2.0:
+
+ - ENVIO DE MENSAGEM EM MASSA PARA LISTA DE CONTATOS;
+ - SISTEMA DE SELEÇÃO DO USUÁRIO NO CHROME, PARA QUE NÃO IMPOSSIBITE DE USAR O NAVEGADOR QUANDO ESTIVER RODANDO O BOT;
+ - ENVIO DE MENSAGENS EM HORÁRIOS ESPECIFICOS A ESCOLHA DO USUÁRIO.
+ 
+
+# CONFIGURAÇÃO: 
+
+LINHA 20: options.addArguments("user-data-dir=C:/Users/SEUUSER/AppData/Local/Google/Chrome/User Data") //NECESSÁRIO COLOCAR O DESTINO DO APPDATA DO CHROME
+
+LINHA 23: System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"); //NECESSÁRIO COLOCAR O DESTINO DO CHROME.EXE
+
+# PRINT' S:
+
+- TELA PRINCIPAL COM USUÁRIO AINDA DESLOGADO:
+
+![image](https://user-images.githubusercontent.com/104654073/168154780-eafe57c5-a7f6-4191-bdf4-5c3a3f6e8f40.png)
+
+- ESCOLHA DO USUÁRIO QUE VAI MANDAR AS MENSAGENS:
+
+![image](https://user-images.githubusercontent.com/104654073/168154931-62392a72-d33c-4bf3-b44d-93c8d1ee4fc4.png)
+
+- DIGITANDO MENSAGEM QUE SERÁ ENVIADA:
+
+![image](https://user-images.githubusercontent.com/104654073/168155044-f7a99017-2338-44d9-8d22-cc000b196760.png)
+
+- SETANDO NÚMERO DE MENSAGENS:
+
+![image](https://user-images.githubusercontent.com/104654073/168155099-e750d9c0-98bb-4a5d-b3cf-96864a3a162e.png)
+
+- MENSAGENS ENVIADAS:
+
+![image](https://user-images.githubusercontent.com/104654073/168155162-0d2076cf-854b-40bc-9da7-87da32a22c61.png)
+
+
